@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/rooms")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://spring-react-chat-app.vercel.app")
 public class RoomController {
     private RoomRepository roomRepository;
 

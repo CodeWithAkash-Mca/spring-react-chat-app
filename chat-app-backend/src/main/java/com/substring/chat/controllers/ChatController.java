@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import java.time.LocalDateTime;
 
 @Controller
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://spring-react-chat-app.vercel.app")
 public class ChatController {
 
    private RoomRepository roomRepository;
